@@ -28,13 +28,13 @@ public class ApiCallHandler {
     private Retrofit retrofit;
     private static final String TAG = "ApiCallHandler";
     private static final String BASE_URL = "https://api.twitter.com";
-    private static final String GRANT_TYPE_VALUE = "client_credentials";
+    private static final String GRANT_TYPE_VALUE = "";
     private static final String AUTHORIZATION = "Authorization";
     private static final String BEARER = "Bearer ";
     private static final String BASIC = "Basic ";
-    private static final String CONSUMER_KEY = "68y5E7dCm96CddcBPhlGVABVg";
-    private static final String CONSUMER_SECRET = "ulKHCdAEvRrlEK2B06j2jND5q24UXNpnM6pI06G3PMB00N8xW6";
-    private static String accessToken = "4273204042-owKAWePIv5Zj42ERGbof4nXoRi1e1cj1Zi6dO06";
+    private static final String CONSUMER_KEY = "";
+    private static final String CONSUMER_SECRET = "";
+    private static String accessToken = "";
 
 
     public static ApiCallHandler newInstance() {
