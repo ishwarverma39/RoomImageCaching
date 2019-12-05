@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">MobileIronTest</string>
+    <string name="app_name">ImageCaching</string>
     <string name="search">Search</string>
 </resources>
