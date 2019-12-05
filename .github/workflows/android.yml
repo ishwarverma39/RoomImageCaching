@@ -16,7 +16,7 @@ jobs:
       - name : Keystore Decoding
         run: |
           echo "$RELEASE_KEYSTORE" | base64 -d > app/caching.keystore
-          env:
+        env:
             RELEASE_KEYSTORE: ${{ secrets.RELEASE_KEYSTORE }}
       - name: Build with Gradle
         run: ./gradlew build
